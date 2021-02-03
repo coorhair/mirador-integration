@@ -1,0 +1,58 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\cmder\bin;C:\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\cmder\vendor\conemu-maximus5;C:\cmder\vendor\conemu-maximus5\ConEmu;D:\Program Files\Python37\Scripts\;D:\Program Files\Python37\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\MSBuild\14.0\Bin;C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\cmder;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Python27;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Program Files\Genymobile\Genymotion\tools;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files\Microsoft Windows Performance Toolkit\;C:\Program Files\Microsoft Network Monitor 3\;C:\Program Files (x86)\Calibre2\;D:\Qt\5.12.4\msvc2017_64\bin;C:\Users\muoi\AppData\Roaming\nvm;C:\Program Files\nodejs;D:\EcommerceLab\APKTool;C:\Users\muoi\AppData\Local\Programs\orca;D:\Program Files\Memurai\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\muoi\.dotnet\tools;C:\Users\muoi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\muoi\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\muoi\AppData\Local\Programs\Fiddler;C:\Users\muoi\.dotnet\tools;C:\Users\muoi\AppData\Local\Microsoft\WindowsApps;C:\Users\muoi\AppData\Local\Yarn\bin;C:\Program Files\Git\mingw64;C:\Program Files\Git\usr\bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@material-ui/icons/-/icons-4.11.2.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141376:19)
+      at Object.onceWrapper (events.js:417:28)
+      at ClientRequest.emit (events.js:311:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:714:9)
+      at Object.onceWrapper (events.js:417:28)
+      at TLSSocket.emit (events.js:311:20)
+      at TLSSocket.Socket._onTimeout (net.js:478:8)
+      at listOnTimeout (internal/timers.js:549:17)
+      at processTimers (internal/timers.js:492:7)
+
+npm manifest: 
+  {
+    "name": "mirador-integration",
+    "version": "0.0.0",
+    "description": "",
+    "private": true,
+    "scripts": {
+      "parcel": "parcel parcel/index.html",
+      "webpack": "webpack --config webpack/webpack.config.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "css-loader": "^3.6.0",
+      "mirador": "^3.0.0",
+      "mirador-image-tools": "^0.10.0",
+      "parcel-bundler": "^1.12.4",
+      "react": "^16.13.1",
+      "react-dom": "^16.13.1",
+      "style-loader": "^1.2.1",
+      "webpack": "^4.43.0",
+      "webpack-cli": "^3.3.12"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
